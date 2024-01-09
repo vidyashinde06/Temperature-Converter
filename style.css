@@ -1,0 +1,37 @@
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+  font-family: "poppins" "sans-serif";
+}
+body {
+  background-image: url(img.jpg);
+  background-size: cover;
+}
+h1 {
+  text-align: center;
+  margin-top: 100px;
+}
+.container {
+  width: 80%;
+  max-width: 400px;
+  margin: 20px auto 20px;
+  padding: 40px 35px;
+  text-align: center;
+  border-radius: 10px;
+  background: linear-gradient(100deg, rgb(235, 235, 198), rgb(241, 230, 230));
+}
+.input1 {
+  display: flex;
+  justify-content: space-between;
+  margin-top: 10px;
+}
+.inp {
+  font-size: 15px;
+  font-weight: bold;
+}
+.lab {
+  font-size: 20px;
+  font-weight: bold;
+  color: black;
+}
